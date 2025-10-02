@@ -170,6 +170,7 @@ h2, h3 {
     height: auto;
     display: block;
     border-radius: 8px;
+    z-index: 999;
 }
 .carousel-prev,
 .carousel-next {
