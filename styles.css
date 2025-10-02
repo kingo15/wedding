@@ -74,7 +74,7 @@ nav {
         left: 50%;
         transform: translateX(-50%);
         top: 10px;
-        z-index: 10;
+        z-index: 1001; /* Ensure hamburger is above all */
     }
     .topnav {
         display: none;
@@ -85,6 +85,7 @@ nav {
         top: 60px;
         left: 0;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        z-index: 1000; /* Ensure menu is above carousels and other content */
     }
     .topnav.show {
         display: flex;
