@@ -21,3 +21,15 @@ document.addEventListener("DOMContentLoaded", function() {
         showImage(current);
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const navToggle = document.querySelector('.nav-toggle');
+    const topnav = document.querySelector('.topnav');
+    if (navToggle && topnav) {
+        navToggle.addEventListener('click', function() {
+            topnav.classList.toggle('show');
+        });
+    }
+
+    // ...existing carousel code...
+});
